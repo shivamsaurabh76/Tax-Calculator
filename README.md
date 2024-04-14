@@ -18,7 +18,7 @@ This is a simple web application for calculating taxes based on gross annual inc
 
 ## Screenshot of  the App in Action
 
-![Screenshot](UI of tax calculator with correct inputs.png)
+![Screenshot]([UI of tax calculator with correct inputs.png](https://github.com/shivamsaurabh76/Tax-Calculator/blob/main/UI%20of%20tax%20calculator%20with%20correct%20inputs.png))
 ![Screenshot](Gross annual income icon hover.png)
 ![Screenshot](Deductions icon hover.png)
 ![Screenshot](Error showing Gross annual income field is required.png)
