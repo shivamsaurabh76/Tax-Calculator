@@ -1,0 +1,367 @@
+/* Add styles for error icons and tooltips */
+.error {
+    display: none;
+    color: red;
+    margin-left: 5px;
+    cursor: help;
+}
+
+.error-tooltip {
+    position: relative;
+}
+
+.error-tooltip:hover .error {
+    display: inline;
+}
+
+.error-tooltip .error-message {
+    visibility: hidden;
+    width: max-content;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.error-tooltip:hover .error-message {
+    visibility: visible;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="text"],
+select {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 1px;
+}
+
+.error {
+    display: none;
+    color: red;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Form container */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Form field container */
+.form-field {
+    width: calc(50% - 5px); /* Adjust the width based on container width */
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/* Input styles */
+input[type="text"],
+select {
+    width: calc(200%); /* Adjust the width based on container width */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Calculate button styles */
+button {
+    width: calc(100% - 9px); /* Adjust the width based on container width */
+    padding: 10px;
+    background-color: rgb(76, 76, 236);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+/* Error tooltip styles */
+.error-tooltip {
+    position: relative;
+    right: 0;
+    top: calc(50%);
+    width: calc(100% - 10px);
+    text-align: center;
+}
+
+.error-icon {
+    display: none;
+}
+
+.tooltip {
+    display: none;
+}
+
+.form-field:hover .error-tooltip {
+    display: inline;
+}
+
+::placeholder {
+    color: grey;
+    opacity: 0.6; /* Firefox */
+  }
+  
+  ::-ms-input-placeholder { /* Edge 12-18 */
+    color: grey;
+  }
+
+.bi.bi-question-circle {
+    margin-left: 1%;
+    color: grey;
+    opacity: 0.8;
+}
+
+/* Add styles for error icons and tooltips */
+.error-tooltip {
+    position: relative;
+}
+
+.error-icon {
+    display: none;
+    position: relative;
+    right: 5px;
+    top: 5px;
+    color: red;
+}
+
+.error-tooltip:hover .error-icon {
+    display: inline-block;
+}
+
+.error-tooltip .error-message {
+    display: none;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.error-tooltip:hover .error-message {
+    display: block;
+}
+
+/* Rest of your existing styles remain unchanged */
+label {
+    display: inline-block;
+    width: 500px;
+}
+
+/* Add styles for error icons and tooltips */
+.error {
+    display: none;
+    color: red;
+    margin-left: 5px;
+    cursor: help;
+}
+
+.error-tooltip {
+    position: relative;
+    margin-left: 395px;
+}
+
+.error-tooltip .error-icon {
+    display: none;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: red;
+}
+
+.error-tooltip:hover .error-icon {
+    display: inline-block;
+}
+
+.error-tooltip .error-message {
+    display: none;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.error-tooltip:hover .error-message {
+    display: block;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="text"],
+select {
+    width: calc(200%); /* Adjust the width based on container width */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.error {
+    display: none;
+    color: red;
+}
+
+button {
+    width: calc(100% - 9px); /* Adjust the width based on container width */
+    padding: 10px;
+    background-color: rgb(76, 76, 236);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.4);
+
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    text-align: center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Rest of your existing styles remain unchanged */
+label {
+    display: inline-block;
+    width: 500px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -68%);
+    width: 120%; /* 20% wider than container */
+    height: 80%; /* 20% shorter than container */
+    max-width: 600px; /* Max width to ensure it's not too wide */
+    max-height: 411px; /* Max height to fit in the viewport */
+    background-color: rgba(255, 254, 254, 0.4);
+    overflow: hidden; /* Hide any content overflow */
+}
+
+.modal-content {
+    background-color: #ffffff;
+    margin: 10% auto;
+    padding: 20px;
+    margin-top: 11%;
+    border: 1px solid #888;
+    width: 100%; /* Ensure content stretches to fit modal */
+    height: 100%; /* Ensure content stretches to fit modal */
+    box-sizing: border-box;
+    overflow: auto; /* Enable scrolling within modal content */
+}
+
+
+
