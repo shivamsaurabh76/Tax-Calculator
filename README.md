@@ -23,8 +23,8 @@ This is a simple web application for calculating taxes based on gross annual inc
 ([Deductions icon hover.png](https://github.com/shivamsaurabh76/Tax-Calculator/blob/main/Deductions%20icon%20hover.jpg))
 ([Error showing Gross annual income field is required.png](https://github.com/shivamsaurabh76/Tax-Calculator/blob/main/Error%20showing%20Gross%20annual%20income%20field%20is%20required.png))
 ([Error showing invalid input for Gross annual income.png](https://github.com/shivamsaurabh76/Tax-Calculator/blob/main/Error%20showing%20invalid%20input%20for%20Gross%20annual%20income.png))
-![Screenshot]([Age field is required.png](https://github.com/shivamsaurabh76/Tax-Calculator/blob/main/Age%20field%20is%20required.png))
-![Screenshot](Invalid input for Deductions.png)
+([Age field is required.png](https://github.com/shivamsaurabh76/Tax-Calculator/blob/main/Age%20field%20is%20required.png))
+([Invalid input for Deductions.png](https://github.com/shivamsaurabh76/Tax-Calculator/blob/main/Invalid%20input%20for%20Deductions.png))
 ![Screenshot](Modal showing calculated tax.png)
 ![Screenshot](Modal showing closing cross sign.png)
   
